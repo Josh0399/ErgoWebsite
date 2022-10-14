@@ -20,7 +20,7 @@ h6 {
     height: auto;
     width: 100%;
     align-items: flex-end;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 3%;
     flex-wrap: wrap;
 }
@@ -89,13 +89,13 @@ h6 {
     text-align: center;
 }
 .ueberuns {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 .leistungen {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 .kontakt {
     grid-column-start: 1;
