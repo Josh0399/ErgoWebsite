@@ -194,7 +194,6 @@ h6 {
     padding: 1vh;
 }
 
-.background {}
 
 @media (max-width: 800px) {
     .team-grid-container {
@@ -214,11 +213,12 @@ h6 {
         grid-template-columns: 1fr;
         row-gap: 50px;
     }
-    .leistungen {
+
+    .infobox {
         grid-column-start: 1;
         grid-column-end: 2;
     }
-    .infobox {
+    .ueberuns {
         grid-column-start: 1;
         grid-column-end: 2;
     }
